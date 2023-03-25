@@ -480,7 +480,8 @@ char **av;
 #ifdef POW_DETACH
   PowDetachString = 0;
 #endif
-  default_startup = (ac > 1) ? 0 : 1;
+  //default_startup = (ac > 1) ? 0 : 1;
+  default_startup = 0;
   adaptflag = 0;
   VBellWait = VBELLWAIT * 1000;
   MsgWait = MSGWAIT * 1000;
